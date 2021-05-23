@@ -1,4 +1,4 @@
-        MVP:
+        projeto:
 
 [ok] definir objetivo
 / criar uma pagina para exibição de animaçoes.
