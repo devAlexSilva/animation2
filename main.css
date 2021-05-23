@@ -1,0 +1,124 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color:black;
+   
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+   
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.format {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    row-gap: 20px;
+}
+
+
+header {
+    background-color: rgba(0, 255, 255, 0.295);
+    display: flex;
+    justify-content:space-between;  
+    
+}
+
+
+header .logo {
+    margin: 20px;
+    background-color: aqua;
+}
+header .login {
+    margin: 20px;
+    background-color: bisque;
+}
+
+footer {
+    background-color: rgba(0, 255, 255, 0.295);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .whats {
+    
+    margin-left: 20px;
+    
+} 
+
+footer .git {
+    margin-right: 20px;
+    margin-bottom: 10px;
+} 
+
+
+.container {
+    margin: 40px auto;
+}
+
+.container .pesquisa{
+    width: 30%;
+    
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+textarea {
+    resize: none;
+    width: 60%;
+    height: 100px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.enviar {
+    border-radius: 30px;
+    background-color: blueviolet;
+}
+.enviar:hover {
+    background-color: rgba(137, 43, 226, 0.562);
+}
+
+
+
+.star li {
+    
+    display: block;
+    position: absolute;
+    animation: star infinite linear;
+    background-color: yellow;
+    
+}
+
+
+@keyframes star {
+    from {
+        opacity: 1;
+        transform:translateY(0) scale(0.1);
+
+        
+    } 
+    to {
+        opacity: 0.05;
+        transform:translateY(100vh) scale(1) rotate(800deg);
+    }
+}
+
