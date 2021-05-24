@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    color:black;
+    color:rgb(142, 248, 248);
    
 }
 
@@ -33,11 +33,11 @@ header {
 
 header .logo {
     margin: 20px;
-    background-color: aqua;
+    
 }
 header .login {
     margin: 20px;
-    background-color: bisque;
+    
 }
 
 footer {
@@ -80,6 +80,31 @@ form {
     padding-bottom: 70px;
 }
 
+form div:hover {
+    background-color: dimgray;
+   
+}
+    
+form label {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    
+}
+
+form div {
+   
+    padding: 20px;
+}
+
+
+
+.text {
+    
+    text-align: center;
+    color: black;
+}
+
 
 textarea {
     resize: none;
@@ -99,17 +124,17 @@ textarea {
 
 
 
-.star li {
+.animed li {
     
     display: block;
     position: absolute;
-    animation: star infinite linear;
-    background-color: yellow;
+    animation: flakes infinite linear;
+    
     
 }
 
 
-@keyframes star {
+@keyframes flakes {
     from {
         opacity: 1;
         transform:translateY(0) scale(0.1);

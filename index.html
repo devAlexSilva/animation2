@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid</title>
+    <title>animation v.0.3</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <div class="format">
         <header>
-             <div class="logo">logo</div>
-             <div class="login">login</div>
+            <div class="logo">logo</div>
+            <div class="login">login</div>
         </header>
 
         <main>
             <div class="container">
                 <input type="search" class="pesquisa" placeholder="pesquisar funções" name="">
+                
                 <form action="">
-                    <input type="text" id="textColor" placeholder="cor: x,y,z">
-                    <textarea resize="none" placeholder="código gerado aqui >>"></textarea>
-                    <input class="enviar" value="Enviar" type="submit" placeholder="enviar">
+
+                    <div class="card1">
+                        <label for="textQuantidade">quantidade(un): </label>
+                        <input type="text" class="text" id="textQuantidade" placeholder="12">
+                    </div>
+
+                    <div class="card2">
+                        <label for="textColor">cor(RGB): </label>
+                        <input type="text" class="text" id="textColor" placeholder="200,12,215">
+                    </div>
+                    <div class="card2">
+                        <label for="textSize">size(px): </label>
+                        <input type="text" class="text" id="textSize" placeholder="8">
+                    </div>
+                    <div class="card2">
+                        <label for="textSpeed">duration(s): </label>
+                        <input type="text" class="text" id="textSpeed" placeholder="8">
+                    </div>
+
+                        <textarea resize="none" placeholder="código gerado aqui >>"></textarea>
+                        <input class="enviar" id="btnColor" value="Enviar" type="submit" placeholder="enviar">
+                    
+
                 </form>
 
-                <ul class="star"></ul>
 
+                <ul class="animed"></ul>
 
             </div>
         </main>
 
         <footer>
             <div class="whats">whatsapp</div>
-            <div class ="git">git hub</div>
+            <div class="git">git hub</div>
         </footer>
     </div>
-    <script src="starAnimation.js"></script>
+    
+    <script src="animation.js"></script>
 </body>
 
 </html>
