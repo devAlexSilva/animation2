@@ -7,7 +7,7 @@ const btnColor = document.querySelector('#btnColor');
 
 btnColor.addEventListener('click', (enviando) => {
     enviando.preventDefault();
-/*----------------------------------------------------------*/
+/*-------------------------INPUTS---------------------------------*/
     let textColor = document.querySelector('#textColor');
     let fieldColor = textColor.value;
 
